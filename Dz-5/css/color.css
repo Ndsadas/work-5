@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+
+}
+
+.header {
+    background-color: #222;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+}
+
+.leftContent {
+    font-size: 30px;
+    color: red;
+}
+
+.rightContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchForm {
+    margin-right: 100px;
+    position: relative;
+    display: inline-block;
+}
+
+.searchInput {
+    box-sizing: border-box;
+    padding: 15px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #ebebeb;
+    color: white;
+}
+
+.rightContent button {
+    background-color: #F16D7F;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.rightContent button:hover {
+    background-color: transparent;
+    border-color: #FFFF00;
+    color: #FFFF00;
+}
+
+.goods-list {
+    column-gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 40px 80px;
+}
+
+.product-item {
+    border: 1px solid black;
+    margin-bottom: 15px;
+    padding: 13px 16px;
+    text-align: center;
+}
+
+.product-item button {
+    background: #F16D7F;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.product-item button:hover {
+    background-color: transparent;
+    color: red;
+}
+
+.itemPrise {
+    color: red;
+}
+
+
+.basket {
+    position: absolute;
+    z-index: 3;
+    right: 105px;
+    top: 66px;
+    background: white;
+    padding: 10px;
+    border: 1px solid #ebebeb;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+div p {
+    margin: 5px 0px 4px 105px;
+}
+
+.leftElm {
+    max-width: 200px;
+}
+
+.rightElm {
+    text-align: right;
+    margin-top: 15px;
+}
+
+.productTitle {
+    font-size: 25px;
+}
+
+.productQuant {
+    font-size: 13px;
+}
+
+.productPrise {
+    font-size: 12px;
+}
